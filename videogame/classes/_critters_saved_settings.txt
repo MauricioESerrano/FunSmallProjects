@@ -1,0 +1,7 @@
+#CSE 11 Critters saved settings
+#Wed Nov 16 20:14:18 PST 2022
+Raccoon=true
+Height=50
+Number\ of\ each\ critter=25
+Width=60
+Debug\ output=false
