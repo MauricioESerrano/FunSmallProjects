@@ -277,7 +277,7 @@ public class AirlineReservation {
     
             
             
-            //according to PA, reads and splits the lines into
+            //reads and splits the lines into
             //commas. 
             String classRows = input.nextLine();
             String[] classes = classRows.split(",");
