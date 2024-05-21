@@ -19,7 +19,6 @@ public class ImageEditorEC {
     private static final int RED_BYTE_MASK = 0xff << RED_BYTE_SHIFT;
     private static final int ALPHA_BYTE_MASK = ~(0xff << ALPHA_BYTE_SHIFT);
 
-    /* Static variables - DO NOT add any additional static variables */
     static int[][] image;
 
     /**
@@ -28,9 +27,6 @@ public class ImageEditorEC {
      * of returning the array.
      *
      * @param pathname path and name to the file, e.g. "input.png",
-     *                 "D:\\Folder\\ucsd.png" (for Windows), or
-     *                 "/User/username/Desktop/my_photo.png" (for Linux/macOS).
-     *                 Do NOT use "~/Desktop/xxx.png" (not supported in Java).
      * @return 2D array storing the rgb value of each pixel in the image
      * @throws IOException when file cannot be found or read
      */
