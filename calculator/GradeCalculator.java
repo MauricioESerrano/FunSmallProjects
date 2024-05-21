@@ -1,8 +1,6 @@
 import java.util.Scanner;
 public class GradeCalculator {
     public static void main(String[] args) {
-        
-        System.out.println("input pa scores here"); //TODO: remove
 
         Scanner keyboard = new Scanner(System.in);
  
